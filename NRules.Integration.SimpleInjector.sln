@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NRules.Integration.SimpleInjector.Test", ".\NRules.Integration.SimpleInjector.Test\NRules.Integration.SimpleInjector.Test.csproj", "{82FB660B-6223-4F6C-83B0-CBF31FD8AD34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAssembly1", ".\TestAssemblies\TestAssembly1\TestAssembly1.csproj", "{CA55ABAC-E872-4A82-AD91-EC7C31A5DD0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAssembly2", ".\TestAssemblies\TestAssembly2\TestAssembly2.csproj", "{0671B054-EEB2-43F4-B9FF-88AB571E86FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestAssemblies", "TestAssemblies", "{1D397C5B-D55E-4D5E-980E-1D264D6C17FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NRules.Integration.SimpleInjector", "NRules.Integration.SimpleInjector\NRules.Integration.SimpleInjector.csproj", "{49B460C0-EEE7-4655-ACAB-A5D8FEDE4403}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82FB660B-6223-4F6C-83B0-CBF31FD8AD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FB660B-6223-4F6C-83B0-CBF31FD8AD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FB660B-6223-4F6C-83B0-CBF31FD8AD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FB660B-6223-4F6C-83B0-CBF31FD8AD34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA55ABAC-E872-4A82-AD91-EC7C31A5DD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA55ABAC-E872-4A82-AD91-EC7C31A5DD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA55ABAC-E872-4A82-AD91-EC7C31A5DD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA55ABAC-E872-4A82-AD91-EC7C31A5DD0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0671B054-EEB2-43F4-B9FF-88AB571E86FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0671B054-EEB2-43F4-B9FF-88AB571E86FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0671B054-EEB2-43F4-B9FF-88AB571E86FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0671B054-EEB2-43F4-B9FF-88AB571E86FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49B460C0-EEE7-4655-ACAB-A5D8FEDE4403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B460C0-EEE7-4655-ACAB-A5D8FEDE4403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B460C0-EEE7-4655-ACAB-A5D8FEDE4403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B460C0-EEE7-4655-ACAB-A5D8FEDE4403}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA55ABAC-E872-4A82-AD91-EC7C31A5DD0A} = {1D397C5B-D55E-4D5E-980E-1D264D6C17FA}
+		{0671B054-EEB2-43F4-B9FF-88AB571E86FA} = {1D397C5B-D55E-4D5E-980E-1D264D6C17FA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86C5585A-1D41-4DC3-8DC9-33013403CCBA}
+	EndGlobalSection
+EndGlobal
